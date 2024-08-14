@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "language": {
+        "type": "string",
+        "enum": ["react", "auto", "html", "python", "node", "dom"]
+      },
+      "slug": {
+        "type": "string"
+      },
+      "title": {
+        "type": "object",
+        "properties": {
+          "us": {
+            "type": "string"
+          },
+          "es": {
+            "type": "string"
+          }
+        },
+        "required": ["us"]
+      },
+      "repository": {
+        "type": "string",
+        "format": "uri"
+      },
+      "preview": {
+        "type": "string",
+        "format": "uri"
+      },
+      "description": {
+        "type": "object",
+        "properties": {
+          "us": {
+            "type": "string"
+          },
+          "es": {
+            "type": "string"
+          }
+        },
+        "required": ["us"]
+      },
+      "duration": {
+        "type": "integer"
+      },
+      "projectType": {
+        "type": "string",
+        "enum": ["tutorial", "project"]
+      },
+      "difficulty": {
+        "type": "string",
+        "enum": ["easy","beginner", "medium", "hard"]
+      },
+      "videoSolutions": {
+        "type": "boolean"
+      },
+      "bugsLink": {
+        "type": "string",
+        "format": "uri"
+      },
+      "grading": {
+        "type": ["string", "null"],
+        "enum": ["isolated", "incremental", null]
+      },
+      "editor": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "string"
+          },
+          "mode": {
+            "type": "string",
+            "enum": ["extension", "preview"]
+          },
+          "agent": {
+            "type": "string",
+            "enum": ["vscode", "os"]
+          }
+        },
+        "required": ["version"]
+      },
+      "telemetry": {
+        "type": "object",
+        "properties": {
+          "batch": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["batch"]
+      },
+      "video": {
+        "type": "object",
+        "properties": {
+          "intro": {
+            "type": "object",
+            "properties": {
+              "us": {
+                "type": "string",
+                "format": "uri"
+              },
+              "es": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        },
+        "required": ["intro"]
+      }
+    },
+    "required": [
+      "slug",
+      "title",
+      "description",
+      "duration",
+      "difficulty",
+      "grading"
+    ]
+  }
+  
