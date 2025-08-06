@@ -13,6 +13,11 @@
 .learn/dist
 .learn/app.tar.gz
 .learn/config.json
+.learn/telemetry.json
+
+.learn/resets
+.learn/reports
+.learn/vscode_queue.json
 
 # python compiled files
 *.pyc

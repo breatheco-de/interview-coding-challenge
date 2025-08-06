@@ -13,6 +13,8 @@ function LongestWord(sen) {
     return placeholder; 
   
   }
-     
-  // keep this function call here 
-  console.log(LongestWord(readline()));
+    
+
+let inputText = prompt("Write a sentence here")
+// keep this function call here 
+console.log(LongestWord(inputText));
