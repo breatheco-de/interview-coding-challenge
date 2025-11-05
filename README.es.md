@@ -1,4 +1,5 @@
 # Bienvenido a Interview Coding Challenges
-Has inicializado los ejercicios con grading=`incremental`; esto signigica que tus estudiantes completarán un solo tutorial con pasos claros e incrementales, desde el comienzo hasta el final.
+Bienvenid@ a esta preparación para entrevistas técnicas. Con estos ejercicios podrás refrescar conocimientos y mejorar tus habilidades en programación para una eventual entrevista técnica.
 
-Ejecuta `$ learnpack start` en la terminal para comenzar con los ejercicios.
+1. Recuerda instalar **learnpack** ejecutando `npm install @learnpack/learnpack -g`
+2. Escribe `learnpack start` en tu terminal para iniciar los ejercicios.
