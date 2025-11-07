@@ -1,4 +1,4 @@
-# Reduce Gifts
+# `07` Reduce Gifts
 
 Determine the minimum number of items to remove from an array of prices so that the sum of any `k` consecutive items does not exceed a given `threshold`.
 
@@ -26,7 +26,10 @@ k = 3
 threshold = 14
 ```
 
-Output: `1`
+Output: 
+```txt
+1
+```
 
 > The sum of the last three items `[4, 6, 5]` is `15`, which exceeds the threshold of `14`. Removing the item `6` results in `[3, 2, 1, 4, 5]`, where no three consecutive items exceed the threshold.
 
@@ -40,7 +43,10 @@ k = 3
 threshold = 14
 ```
 
-Output: `2`
+Output: 
+```txt
+2
+```
 
 > Multiple sets of three consecutive items exceed the threshold, so two items must be removed to satisfy the condition.
 

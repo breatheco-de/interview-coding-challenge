@@ -1,3 +1,5 @@
+# `03` TicToc
+
 Write a program that prints the numbers from 1 to 100 and:
 
 - For multiples of '3' print "Tic" instead of the number

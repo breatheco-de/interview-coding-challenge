@@ -1,4 +1,4 @@
-# Validate a Balanced String of Brackets
+# `12` Validate a Balanced String of Brackets
 
 Write a function named `isBalanced` that takes a string as input and determines if the string contains balanced brackets. The brackets include `()`, `{}`, and `[]`. A string is considered balanced if:
 1. Every opening bracket has a corresponding closing bracket of the same type.

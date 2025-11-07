@@ -1,4 +1,5 @@
-### Exercise: **Find the Missing Number**
+# `11` Find the Missing Number
+
 
 Write a function named `findMissingNumber` that takes an array of positive integers representing numbers in the range from `1` to `n`. The array contains all the numbers in that range except for one missing number. Your task is to find and return the missing number.
 
