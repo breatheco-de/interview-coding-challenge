@@ -2,7 +2,7 @@ function LetterChanges(str) {
     let _array = str.split('');
     let newString = _array.map(m => {
       if(m == ' ') return m;
-      if(!/[a-z]/.test(m)) return m;
+      if(!/[a-zA-Z]/.test(m)) return m;
   
       let code = m.charCodeAt(0);
       let letter = String.fromCharCode(code + 1);
@@ -17,4 +17,5 @@ function LetterChanges(str) {
   }
      
   // keep this function call here 
-  console.log(LetterChanges(readline()));
+  const inputText = prompt("Write a sentence here")
+  console.log(LetterChanges(inputText));
