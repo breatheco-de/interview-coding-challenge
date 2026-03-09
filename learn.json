@@ -1,8 +1,45 @@
 {
-  "grading": "isolated",
-  "difficulty": "intermediate",
+  "slug": "interview-coding-challenges",
   "duration": 10,
-  "description": "Coding challenges online are way more dificult than they should, usualy the difficulty is set by FANG companies. The overhwelming majority of companies don't test like that. This is a compilation of high quality coding challenges that will make you succeed in almost every other coding interview.",
-  "title": "Interview Coding Challenges",
-  "slug": "interview-coding-challenges"
+  "difficulty": "intermediate",
+  "title": {
+    "us": "Interview Coding Challenges",
+    "es": "Desafios de Codigo para Entrevistas"
+  },
+  "description": {
+    "us": "Practice interview-style coding challenges with isolated auto-evaluation and progressive difficulty focused on common technical interview patterns.",
+    "es": "Practica desafios de codigo tipo entrevista con autoevaluacion aislada y dificultad progresiva, enfocados en patrones comunes de entrevistas tecnicas."
+  },
+  "projectType": "tutorial",
+  "template_url": "self",
+  "autoPlay": true,
+  "technologies": [
+    "javascript",
+    "algorithms",
+    "data structures",
+    "problem solving",
+    "technical interview"
+  ],
+  "videoSolutions": false,
+  "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+  "graded": true,
+  "grading": "isolated",
+  "localhostOnly": true,
+  "editor": {
+    "version": "5.0",
+    "agent": "vscode",
+    "mode": "extension"
+  },
+  "entries": {
+    "node": "app.js"
+  },
+  "delivery": {
+    "formats": [
+      "no_delivery"
+    ]
+  },
+  "translations": [
+    "es",
+    "en"
+  ]
 }

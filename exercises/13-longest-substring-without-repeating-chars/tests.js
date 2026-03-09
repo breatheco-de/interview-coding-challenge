@@ -24,3 +24,5 @@ it('returns 1 for bbbbb', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith(1);
 });
+
+
