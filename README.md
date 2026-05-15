@@ -9,43 +9,52 @@
 *Estas instrucciones estan disponibles en [espanol](./README.es.md).*
 <!-- endhide -->
 
-Practice interview-style coding challenges with progressive exercises and isolated auto-evaluation.
+Practice interview-style coding challenges with progressive exercises and isolated auto-evaluation in JavaScript or Python.
 
 ## One-click setup (recommended)
 
-Open in [Codespaces](https://codespaces.new/) and run:
+Choose the version you want to complete and open that repository in Codespaces:
 
 ```bash
-learnpack start
+JavaScript: https://github.com/breatheco-de/interview-coding-challenge-javascript
+Python: https://github.com/breatheco-de/interview-coding-challenge-python
 ```
 
 ## Local setup
 
-1. Install LearnPack:
+1. Clone or open the language-specific repository you want to work on:
 ```bash
-npm i @learnpack/learnpack -g
+git clone https://github.com/breatheco-de/interview-coding-challenge-javascript.git
+# or
+git clone https://github.com/breatheco-de/interview-coding-challenge-python.git
 ```
-2. From the folder where `learn.json` exists, run:
+2. Follow the setup instructions in that repository's README:
 ```bash
-learnpack start
+JavaScript README: https://github.com/breatheco-de/interview-coding-challenge-javascript
+Python README: https://github.com/breatheco-de/interview-coding-challenge-python
 ```
 
 ## Exercise structure
 
-The repository includes:
+The challenge is available in two separate repositories:
+
+1. `interview-coding-challenge-javascript`: Complete the exercises in JavaScript.
+2. `interview-coding-challenge-python`: Complete the exercises in Python.
+
+Both repositories include:
 
 1. `exercises/00-welcome`: Introductory readme-only step.
 2. `exercises/01-...` to `exercises/15-...`: Coding challenges.
 
-Most exercise folders include:
+Depending on the selected language, most exercise folders include:
 
-1. `app.js`: Starter file for students.
-2. `README.md`: Instructions in English.
-3. `README.es.md`: Instrucciones en espanol.
-4. `tests.js`: Exercise test entry.
-5. `solution.hide.js` (on selected exercises): Hidden reference solution.
+1. JavaScript version: `app.js`, `tests.js`, and selected `solution.hide.js` files.
+2. Python version: `app.py`, `test.py`, and selected `solution.hide.py` files.
+3. `README.md`: Instructions in English.
+4. `README.es.md`: Instructions in Spanish.
 
 ## Notes
 
+- This repository is a wrapper that points to the JavaScript and Python versions.
 - Keep `README.md` and `README.es.md` synchronized when content changes.
-- Student files are intentionally unsolved in `app.js`.
+- Student files are intentionally unsolved in the language-specific repositories.
